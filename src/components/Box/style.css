@@ -1,0 +1,47 @@
+.box {
+  background: #f3f3f3;
+  border-radius: 10px;
+  width: 300px;
+  height: fit-content;
+}
+
+.planet_name {
+  padding: 20px 0 0 0;
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  margin: 20px 0;
+  padding: 0; 
+}
+
+.planet_population,
+.planet_climate,
+.planet_terrain {
+  padding: 0 20px 10px 20px;
+}
+
+.planet_films {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.button {
+  background: #fff;
+  border: 0 solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  outline: none;
+  transition: .3s;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #656565;
+  color: #fff;
+}
