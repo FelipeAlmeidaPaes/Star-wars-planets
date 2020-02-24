@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="box"
+  >
+    <h2
+      className="planet_name"
+    >
+      Loading...
+    </h2>
+    <hr />
+    <div
+      className="planet_population"
+    >
+      <b>
+        Population
+      </b>
+      : 
+      Loading...
+    </div>
+    <div
+      className="planet_climate"
+    >
+      <b>
+        Climate
+      </b>
+      : 
+      Loading...
+    </div>
+    <div
+      className="planet_terrain"
+    >
+      <b>
+        Terrain
+      </b>
+      : 
+      Loading...
+    </div>
+    <p
+      className="planet_films"
+    >
+      Featured in 
+      <b>
+        x
+      </b>
+       films.
+    </p>
+  </div>,
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Next
+  </button>,
+]
+`;
